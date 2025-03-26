@@ -9,9 +9,15 @@ public class Main {
         }
 
         System.out.println(isGreaterThanZero(10));
+
+        System.out.println(square(5));
     }
 
     public static boolean isGreaterThanZero(int a) {
         return a > 0;
+    }
+
+    public static int square(int a) {
+        return a * a;
     }
 }
