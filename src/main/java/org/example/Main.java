@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         String name = "Eric";
@@ -11,6 +13,11 @@ public class Main {
         System.out.println(isGreaterThanZero(10));
 
         System.out.println(square(5));
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Gib deinen Namen ein");
+        String username = input.nextLine();
+        System.out.println("Hallo " + username);
     }
 
     public static boolean isGreaterThanZero(int a) {
