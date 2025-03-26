@@ -7,5 +7,11 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println(name);
         }
+
+        System.out.println(isGreaterThanZero(10));
+    }
+
+    public static boolean isGreaterThanZero(int a) {
+        return a > 0;
     }
 }
